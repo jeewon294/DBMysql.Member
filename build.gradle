@@ -25,6 +25,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.26'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    //implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.6.5’
 }
 
 tasks.named('test') {
